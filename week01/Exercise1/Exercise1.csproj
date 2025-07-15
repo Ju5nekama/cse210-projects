@@ -1,11 +1,18 @@
+using System;
 
-<Project Sdk="Microsoft.NET.Sdk">
+class Program
+{
+    static void Main(string[] args)
+    {
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>disable</Nullable>
-  </PropertyGroup>
+        //ask user of their name  
+        Console.Write("what is your first name? ");
+        string first = Console.ReadLine();
 
-</Project>
+        Console.Write("what is your last name? ");
+        string last = Console.ReadLine();
+
+        Console.WriteLine($"your name is {last}, {first} {last}");
+
+    }
+}
