@@ -6,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to the program");
-        Journal._ newJournal = new Journal();
+        Journal newJournal = new Journal();
         while(true)
         {
             Console.WriteLine("1.Create Entry");
