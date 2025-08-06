@@ -1,9 +1,15 @@
 using System;
 
-class Program
+namespace math 
+{
+    class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Homework Project.");
+        WritingAssignment assign =new  WritingAssignment("Kama","Addition","This has been challenging");
+
+        Console.WriteLine(assign.GetString());
+        Console.WriteLine($"{assign.GetWritingInformation()}");
     }
+}
 }
